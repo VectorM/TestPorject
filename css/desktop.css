@@ -1,0 +1,27 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+	.container{
+		width: 1024px;
+	}
+	#main_header .navigation{
+		margin:0px 51px 0 38px;
+	}
+	#main_header .dropdown_gallery ul li{
+		padding: 23px 9px 16px 12px;
+		width: 104px;
+	}
+	body #banner{
+		min-width: 1024px;
+	}
+	body #content{
+		width: 1024px;
+		min-width: 1024px;
+	}
+	body .news_block section .news{
+		width: 400px;
+	}
+	body footer{
+		min-width: 1024px;
+	}
+
+}
